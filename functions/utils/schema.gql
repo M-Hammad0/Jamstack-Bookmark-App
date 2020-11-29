@@ -4,5 +4,5 @@ type Bookmark {
 }
 
 type Query {
-   allLinks: [Todo!]
+   allLinks: [Bookmark!]
 }
