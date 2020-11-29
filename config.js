@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Eventually', // <title>
-  manifestName: 'Eventually',
+  siteTitle: 'Serverless Jamstack Bookmark', // <title>
+  manifestName: 'Bookmark',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -9,9 +9,9 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-eventually/`, // This path is subpath of your hosting https://domain/portfolio
   // social
-  heading: 'Eventually',
+  heading: 'Jamstack Bookmark with Gatsby Netlify Funcitons and FaunaDB',
   subHeading:
-    "A simple template for telling the world when you'll launch your next big thing.",
+    "Bookmark your favourite websites.",
   socialLinks: [
     {
       icon: 'fa-github',

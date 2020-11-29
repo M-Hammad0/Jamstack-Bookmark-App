@@ -1,7 +1,9 @@
 const axios = require('axios'); // use nodejs syntax
 require('dotenv').config(); // get env variables
 
-exports.handler = async event => {
+exports.handler = async(event) => {
+
+
   const GET_BOOKMARKS = ` 
     query{
         allLinks{
@@ -24,13 +26,12 @@ exports.handler = async event => {
       },
       data: {
         query: GET_BOOKMARKS,
-        variables: {},
       },
     });
 
     return {
       statusCode: 200,
-      body: JSON.stringify(data),
+      body: JSON.stringify(data.allLinks),
     };
   } catch (error) {
     console.log(error);
