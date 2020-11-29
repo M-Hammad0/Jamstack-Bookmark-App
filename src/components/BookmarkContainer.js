@@ -48,7 +48,7 @@ const BookmarkContainer = () => {
                 fetchList()
                 }}>X</div>
                     <li style={{listStyleType: "none"}}>Title: {l.title}</li>
-                    <li style={{listStyleType: "none"}}>URL: <a href={l.url} sytle={{cursor: "pointer"}}>{l.url}</a></li>
+                    <li style={{listStyleType: "none"}}>URL: <a href={l.url} target="_blank" sytle={{cursor: "pointer"}}>{l.url}</a></li>
                 </div>
             ))}
             </div>
